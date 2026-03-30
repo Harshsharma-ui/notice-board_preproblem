@@ -1,11 +1,8 @@
-# Ignore source files that shouldn't be served
-firebase-blueprint.json
-firebase-applet-config.json
-firestore.rules
-metadata.json
-tsconfig.json
-vite.config.ts
-.env.example
-README.md
-src/
 node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
