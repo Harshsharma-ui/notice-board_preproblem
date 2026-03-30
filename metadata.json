@@ -1,5 +1,11 @@
-{
-  "name": "CampusConnect",
-  "description": "A real-time college notice board for students and admins with category-based subscriptions and push notifications.",
-  "requestFramePermissions": ["notifications"]
-}
+# Ignore source files and config that shouldn't be served
+firebase/
+firebase-applet-config.json
+metadata.json
+tsconfig.json
+vite.config.ts
+.env.example
+README.md
+src/
+node_modules/
+.vercel/

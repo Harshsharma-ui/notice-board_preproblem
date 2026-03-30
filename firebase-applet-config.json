@@ -1,10 +1,9 @@
-{
-  "projectId": "gen-lang-client-0095264131",
-  "appId": "1:129744581742:web:68d7556c1a654bb09fa27f",
-  "apiKey": "AIzaSyAlDkAr64joHvuRe20ZGDcXmvooF0xIEW8",
-  "authDomain": "gen-lang-client-0095264131.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-fe635576-838c-4fcd-aaed-af93b5ea29fa",
-  "storageBucket": "gen-lang-client-0095264131.firebasestorage.app",
-  "messagingSenderId": "129744581742",
-  "measurementId": ""
-}
+# GEMINI_API_KEY: Required for Gemini AI API calls.
+# AI Studio automatically injects this at runtime from user secrets.
+# Users configure this via the Secrets panel in the AI Studio UI.
+GEMINI_API_KEY="MY_GEMINI_API_KEY"
+
+# APP_URL: The URL where this applet is hosted.
+# AI Studio automatically injects this at runtime with the Cloud Run service URL.
+# Used for self-referential links, OAuth callbacks, and API endpoints.
+APP_URL="MY_APP_URL"
